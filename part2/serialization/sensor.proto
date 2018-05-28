@@ -1,0 +1,15 @@
+syntax = "proto2";
+
+package serialtest;
+
+message Sensor {
+    required string id = 1;
+    required double ambientTemperature = 2;
+    required double objectTemperature = 3;
+    required double accelerometerX = 4;
+    required double accelerometerY = 5;
+    required double accelerometerZ = 6;
+    required double altitude = 7;
+    required double light = 8;
+    required double humidity = 9;
+}
