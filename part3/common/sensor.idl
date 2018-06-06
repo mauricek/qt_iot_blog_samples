@@ -1,0 +1,12 @@
+/* Struct to describe sensor */
+struct sensor_information {
+    string<256> ID; //@key
+    double ambientTemperature;
+    double objectTemperature;
+    double accelerometerX;
+    double accelerometerY;
+    double accelerometerZ;
+    double altitude;
+    double light;
+    double humidity;
+};
